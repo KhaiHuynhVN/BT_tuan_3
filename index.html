@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <link rel="stylesheet" href="./style.css" />
+      <link rel="stylesheet" href="./responsive.css" />
+
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+         rel="stylesheet"
+      />
+      <title>BT tuần 3</title>
+   </head>
+   <body>
+      <div id="root">
+         <div class="main-wrapper">
+            <header class="header">
+               <div class="header-widget">
+                  <div class="header-logo-container">
+                     <button class="mobile-menu-icon light">
+                        <img class="icon-size-30" src="./assets/icons/mobile-menu-icon.svg" alt="" />
+                     </button>
+
+                     <h1 class="logo-text">Constructor</h1>
+                  </div>
+               </div>
+
+               <div class="header-widget hide-1040">
+                  <nav class="header-menu">
+                     <ul>
+                        <li>Dashboard</li>
+                        <li>About Us</li>
+                        <li>News</li>
+                        <li>User Policy</li>
+                        <li>Contacts</li>
+                        <li><img class="icon-size-30" src="./assets/icons/navigation-more-icon.svg" alt="" /></li>
+                     </ul>
+                  </nav>
+               </div>
+
+               <div class="header-widget hide-1400">
+                  <div class="header-seacrch light">
+                     <div class="header-seacrch__input-container">
+                        <img class="icon-size-30" src="./assets/icons/search-icon.svg" alt="" />
+                        <input type="text" placeholder="Search Transactions and Documents" />
+                     </div>
+
+                     <img class="icon-size-30" src="./assets/icons/chevron-right-icon.svg" alt="" />
+                  </div>
+               </div>
+
+               <div class="header-widget">
+                  <div class="header-right">
+                     <div class="header-right__account hide-640">
+                        <div class="header-right__account-avatar">
+                           <img class="icon-size-30" src="./assets/icons/account-icon.svg" alt="" />
+                        </div>
+                        <span class="header-right__account-name">Clayton Santos</span>
+                     </div>
+
+                     <div class="header-right__utils">
+                        <button class="header-right__utils-item light show-flex-1400 hide-360">
+                           <img class="icon-size-30" src="./assets/icons/search-icon.svg" alt="" />
+                        </button>
+                        <button class="header-right__utils-item light hide-430">
+                           <img class="icon-size-30" src="./assets/icons/notification-icon.svg" alt="" />
+                           <div class="status-icon"></div>
+                        </button>
+                        <button class="header-right__utils-item light show-flex-768">
+                           <img class="icon-size-30" src="./assets/icons/account-icon.svg" alt="" />
+                        </button>
+                        <button class="header-right__utils-item light hide-480">
+                           <img class="icon-size-30" src="./assets/icons/cancel-icon.svg" alt="" />
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </header>
+
+            <div class="main-body">
+               <div class="main-body-left">
+                  <div class="header-logo-container">
+                     <div class="header-logo-container__left">
+                        <button class="mobile-menu-icon light primary-border">
+                           <div class="icon-size-30">
+                              <img src="./assets/icons/mobile-menu-icon.svg" alt="" />
+                           </div>
+                        </button>
+
+                        <h1 class="logo-text">Constructor</h1>
+                     </div>
+
+                     <button class="light primary-border main-body-left__close-btn">
+                        <div class="icon-size-30">
+                           <img src="./assets/icons/close-icon.svg" alt="" />
+                        </div>
+                     </button>
+                  </div>
+
+                  <div class="main-body-left__content">
+                     <div class="left-menu">
+                        <nav class="left-menu__item-list">
+                           <ul>
+                              <li class="light"><img src="./assets/icons/explore-icon.svg" alt="" /></li>
+                              <li class="light"><img src="./assets/icons/start-icon.svg" alt="" /></li>
+                              <li class="light"><img src="./assets/icons/messenger-icon.svg" alt="" /></li>
+                              <li class="light"><img src="./assets/icons/trending-up-icon.svg" alt="" /></li>
+                              <li class="light"><img src="./assets/icons/publicon-icon.svg" alt="" /></li>
+                              <li class="light"><img src="./assets/icons/city-icon.svg" alt="" /></li>
+                           </ul>
+                        </nav>
+
+                        <button class="primary-border light left-menu__back-btn">
+                           <div class="icon-size-30"><img src="./assets/icons/arrow-left-icon.svg" alt="" /></div>
+                        </button>
+
+                        <div class="left-menu__bottom">
+                           <div class="left-menu__bottom-avatar-list">
+                              <ul>
+                                 <li class="bottom-avatar-list__item">
+                                    <img src="./assets/images/image-1.png" alt="" />
+                                    <div class="status-icon"></div>
+                                 </li>
+                                 <li class="bottom-avatar-list__item">
+                                    <img src="./assets/images/image-2.png" alt="" />
+                                 </li>
+                                 <li class="bottom-avatar-list__item">
+                                    <img src="./assets/images/image-3.png" alt="" />
+                                 </li>
+                                 <li class="bottom-avatar-list__item">
+                                    <img src="./assets/images/image-4.png" alt="" />
+                                 </li>
+                              </ul>
+                           </div>
+
+                           <div class="left-menu__bottom-add-button light">
+                              <img src="./assets/icons/add-icon.svg" alt="" />
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="sidebar">
+                        <div class="sidebar__main-menu">
+                           <h4 class="main-menu-title">MAIN MENU</h4>
+
+                           <div class="main-menu-header light">
+                              <div class="main-menu-header__left">
+                                 <img class="icon-size-30 hide-1200" src="./assets/icons/dashboard-icon.svg" alt="" />
+                                 <img class="icon-size-30 show-block-1200" src="./assets/icons/dashboard-icon-2.svg" alt="" />
+                                 <span class="senary-color sidebar-span">Dashboard</span>
+                              </div>
+
+                              <div class="main-menu-header__right">
+                                 <img class="icon-size-30 hide-1200" src="./assets/icons/chevron-bottom-icon.svg" alt="" />
+                                 <img class="icon-size-30 show-block-1200" src="./assets/icons/chevron-bottom-icon-2.svg" alt="" />
+                              </div>
+                           </div>
+
+                           <div class="main-menu-content">
+                              <ul>
+                                 <li class="main-menu-content-item">
+                                    <div class="main-menu-content__left">
+                                       <img class="icon-size-30" src="./assets/icons/apps-icon.svg" alt="" />
+                                       <span class="sidebar-span">Applocations</span>
+                                    </div>
+
+                                    <div class="main-menu-content__right">
+                                       <img class="icon-size-30" src="./assets/icons/chevron-bottom-icon.svg" alt="" />
+                                    </div>
+                                 </li>
+
+                                 <li class="main-menu-content-item">
+                                    <div class="main-menu-content__left">
+                                       <img class="icon-size-30" src="./assets/icons/group-icon.svg" alt="" />
+                                       <span class="sidebar-span">Clients</span>
+                                    </div>
+
+                                    <div class="main-menu-content__right">
+                                       <span class="badge">2</span>
+                                       <img class="icon-size-30" src="./assets/icons/chevron-bottom-icon.svg" alt="" />
+                                    </div>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+
+                        <div class="sidebar__project">
+                           <div class="sidebar__project-header">
+                              <div class="sidebar__project-header__left">
+                                 <img class="icon-size-30" src="./assets/icons/actived-bag-icon.svg" alt="" />
+                                 <span class="senary-color sidebar-span">Projects</span>
+                              </div>
+
+                              <div class="sidebar__project-header__right">
+                                 <img class="icon-size-30" src="./assets/icons/actived-chevron-top-icon.svg" alt="" />
+                              </div>
+                           </div>
+
+                           <div class="sidebar__project-content light">
+                              <div class="project-content__head">
+                                 <div class="project-content__head-left">
+                                    <img class="icon-size-30" src="./assets/icons/actived-dot-icon.svg" alt="" />
+                                    <span class="senary-color sidebar-span">Coca Cola Project</span>
+                                 </div>
+
+                                 <img class="icon-size-30" src="./assets/icons/chevron-top-icon.svg" alt="" />
+                              </div>
+
+                              <div class="project-content__content">
+                                 <div class="project-content__content-item">
+                                    <div class="project-content__content-item-left">
+                                       <img class="icon-size-30" src="./assets/icons/dot-icon.svg" alt="" />
+                                       <span class="sidebar-span">Link Colors</span>
+                                    </div>
+
+                                    <img class="icon-size-30" src="./assets/icons/chevron-right-icon.svg" alt="" />
+                                 </div>
+
+                                 <div class="project-content__content-item">
+                                    <div class="project-content__content-item-left">
+                                       <img class="icon-size-30" src="./assets/icons/actived-dot-icon.svg" alt="" />
+                                       <span class="senary-color sidebar-span">Additional Content</span>
+                                    </div>
+
+                                    <img class="icon-size-30" src="./assets/icons/actived-chevron-right-icon.svg" alt="" />
+                                 </div>
+
+                                 <div class="project-content__content-item">
+                                    <div class="project-content__content-item-left">
+                                       <img class="icon-size-30" src="./assets/icons/dot-icon.svg" alt="" />
+                                       <span class="sidebar-span">Disimissing</span>
+                                    </div>
+
+                                    <img class="icon-size-30" src="./assets/icons/chevron-right-icon.svg" alt="" />
+                                 </div>
+
+                                 <div class="project-content__content-item">
+                                    <div class="project-content__content-item-left">
+                                       <img class="icon-size-30" src="./assets/icons/dot-icon.svg" alt="" />
+                                       <span class="sidebar-span">Java Script Behavior</span>
+                                    </div>
+
+                                    <img class="icon-size-30" src="./assets/icons/chevron-right-icon.svg" alt="" />
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="project-content__footer">
+                              <div class="project-content__footer-item">
+                                 <div class="project-content__footer-item-left">
+                                    <img class="icon-size-30" src="./assets/icons/dot-icon.svg" alt="" />
+                                    <span class="sidebar-span">Zoom Projects</span>
+                                 </div>
+
+                                 <div class="project-content__footer-item-right">
+                                    <img class="icon-size-30" src="./assets/icons/chevron-right-icon.svg" alt="" />
+                                 </div>
+                              </div>
+
+                              <div class="project-content__footer-item">
+                                 <div class="project-content__footer-item-left">
+                                    <img class="icon-size-30" src="./assets/icons/dot-icon.svg" alt="" />
+                                    <span class="sidebar-span">Task Board</span>
+                                 </div>
+
+                                 <div class="project-content__footer-item-right">
+                                    <img class="icon-size-30" src="./assets/icons/chevron-right-icon.svg" alt="" />
+                                 </div>
+                              </div>
+
+                              <div class="project-content__footer-item">
+                                 <div class="project-content__footer-item-left">
+                                    <img class="icon-size-30" src="./assets/icons/dot-icon.svg" alt="" />
+                                    <span class="sidebar-span">Project Diagramma</span>
+                                 </div>
+
+                                 <div class="project-content__footer-item-right">
+                                    <img class="icon-size-30" src="./assets/icons/chevron-right-icon.svg" alt="" />
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="sidebar__applocation">
+                           <div class="sidebar__applocation-left">
+                              <img class="icon-size-30" src="./assets/icons/apps-icon.svg" alt="" />
+                              <span class="sidebar-span">Applocations</span>
+                           </div>
+
+                           <div class="sidebar__applocation-right">
+                              <img src="./assets/icons/chevron-bottom-icon.svg" alt="" />
+                           </div>
+                        </div>
+
+                        <div class="sidebar__second-menu">
+                           <span class="second-menu__title">SECOND MENU</span>
+
+                           <div class="second-menu__content">
+                              <div class="second-menu__content-item">
+                                 <div class="second-menu__content-item-left">
+                                    <img class="icon-size-30" src="./assets/icons/compare-arrows-icon.svg" alt="" />
+                                    <span class="sidebar-span">Intergrations</span>
+                                 </div>
+
+                                 <div class="second-menu__content-item-right">
+                                    <img class="icon-size-30" src="./assets/icons/chevron-bottom-icon.svg" alt="" />
+                                 </div>
+                              </div>
+
+                              <div class="second-menu__content-item">
+                                 <div class="second-menu__content-item-left">
+                                    <img class="icon-size-30" src="./assets/icons/account-icon.svg" alt="" />
+                                    <span class="sidebar-span">Users</span>
+                                 </div>
+
+                                 <div class="second-menu__content-item-right">
+                                    <img class="icon-size-30" src="./assets/icons/chevron-bottom-icon.svg" alt="" />
+                                 </div>
+                              </div>
+
+                              <div class="second-menu__content-item">
+                                 <div class="second-menu__content-item-left">
+                                    <img class="icon-size-30" src="./assets/icons/setting-icon.svg" alt="" />
+                                    <span class="sidebar-span">Settings</span>
+                                 </div>
+
+                                 <div class="second-menu__content-item-right">
+                                    <img class="icon-size-30" src="./assets/icons/chevron-bottom-icon.svg" alt="" />
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="content-wrapper">
+                  <div class="content light">
+                     <div class="content__sidebar">
+                        <div class="content__sidebar-head">
+                           <div class="sidebar-head__input-container">
+                              <img class="icon-size-30" src="./assets/icons/search-icon.svg" alt="" />
+                              <input type="text" placeholder="Search in Messages" />
+                           </div>
+
+                           <img src="./assets/icons/arrow-right-icon.svg" alt="" />
+                        </div>
+
+                        <div class="content__sidebar-content">
+                           <div class="sidebar-content__direct-message">
+                              <div class="sidebar-content__direct-message-title">
+                                 <span>Direct Messages</span>
+                                 <img src="./assets/icons/add-outline-icon.svg" alt="" />
+                              </div>
+
+                              <div class="sidebar-content__user-list">
+                                 <ul>
+                                    <li class="user-list__item">
+                                       <div class="user-list__item-left">
+                                          <img class="nonary-bg" src="./assets/images/image-5.png" alt="" />
+                                          <span class="primary-color">Ina Perry</span>
+                                       </div>
+                                       <div class="user-list__item-right">
+                                          <span class="denary-color">Online</span>
+                                          <span class="secondary-color">12:45</span>
+                                       </div>
+                                    </li>
+                                    <li class="user-list__item">
+                                       <div class="user-list__item-left">
+                                          <img class="secondary-bg-2" src="./assets/images/image-6.png" alt="" />
+                                          <span class="primary-color">Wesley Ray</span>
+                                       </div>
+                                       <div class="user-list__item-right">
+                                          <span class="denary-color">Online</span>
+                                          <span class="secondary-color">12:45</span>
+                                       </div>
+                                    </li>
+                                    <li class="user-list__item">
+                                       <div class="user-list__item-left">
+                                          <img class="tertiary-bg-2" src="./assets/images/image-7.png" alt="" />
+                                          <span class="primary-color">Eula Burton</span>
+                                       </div>
+                                       <div class="user-list__item-right">
+                                          <span class="primary-color-2">Work</span>
+                                          <span class="secondary-color">12:45</span>
+                                       </div>
+                                    </li>
+                                    <li class="user-list__item">
+                                       <div class="user-list__item-left">
+                                          <img class="quaternary-bg-2" src="./assets/images/image-8.png" alt="" />
+                                          <span class="primary-color">Viola Morales</span>
+                                       </div>
+                                       <div class="user-list__item-right">
+                                          <span class="secondary-color">Offline</span>
+                                          <span class="secondary-color">12:45</span>
+                                       </div>
+                                    </li>
+                                    <li class="user-list__item">
+                                       <div class="user-list__item-left">
+                                          <img class="quinary-bg-2" src="./assets/images/image-9.png" alt="" />
+                                          <span class="primary-color">Vincent Terry</span>
+                                       </div>
+                                       <div class="user-list__item-right">
+                                          <span class="denary-color">Online</span>
+                                          <span class="secondary-color">12:45</span>
+                                       </div>
+                                    </li>
+                                    <li class="user-list__item">
+                                       <div class="user-list__item-left">
+                                          <img class="tertiary-bg-2" src="./assets/images/image-10.png" alt="" />
+                                          <span class="primary-color">Nell Burns</span>
+                                       </div>
+                                       <div class="user-list__item-right">
+                                          <span class="secondary-color">Offline</span>
+                                          <span class="secondary-color">12:45</span>
+                                       </div>
+                                    </li>
+                                    <li class="user-list__item">
+                                       <div class="user-list__item-left">
+                                          <img class="senary-bg-2" src="./assets/images/image-11.png" alt="" />
+                                          <span class="primary-color">Lydia Sutton</span>
+                                       </div>
+                                       <div class="user-list__item-right">
+                                          <span class="denary-color">Online</span>
+                                          <span class="secondary-color">12:45</span>
+                                       </div>
+                                    </li>
+                                    <li class="user-list__item">
+                                       <div class="user-list__item-left">
+                                          <img class="septenary-bg-2" src="./assets/images/image-12.png" alt="" />
+                                          <span class="primary-color">Cynthia Evans</span>
+                                       </div>
+                                       <div class="user-list__item-right">
+                                          <span class="secondary-color">Offline</span>
+                                          <span class="secondary-color">12:45</span>
+                                       </div>
+                                    </li>
+                                 </ul>
+                              </div>
+
+                              <button class="sidebar-content__more-btn light">Show More Channels</button>
+                           </div>
+
+                           <div class="sidebar-content__channel">
+                              <div class="sidebar-content__channel-title">
+                                 <span class="secondary-color"># Channels</span>
+                                 <img src="./assets/icons/add-outline-icon.svg" alt="" />
+                              </div>
+
+                              <div class="sidebar-content__channel-content">
+                                 <div class="channel-content__channel-list">
+                                    <ul>
+                                       <li class="channel-list__item">
+                                          <div class="channel-list__item-left">
+                                             <img src="./assets/icons/dot-icon.svg" alt="" />
+                                             <span class="primary-color">How To Frotend</span>
+                                          </div>
+                                          <div class="channel-list__item-right">
+                                             <span class="denary-color">+12</span>
+                                             <span class="secondary-color">564</span>
+                                          </div>
+                                       </li>
+                                       <li class="channel-list__item">
+                                          <div class="channel-list__item-left">
+                                             <img src="./assets/icons/dot-icon.svg" alt="" />
+                                             <span class="primary-color">Payment Workers</span>
+                                          </div>
+                                          <div class="channel-list__item-right">
+                                             <span class="denary-color">+12</span>
+                                             <span class="secondary-color">564</span>
+                                          </div>
+                                       </li>
+                                       <li class="channel-list__item">
+                                          <div class="channel-list__item-left">
+                                             <img src="./assets/icons/dot-icon.svg" alt="" />
+                                             <span class="primary-color">Web Designer</span>
+                                          </div>
+                                          <div class="channel-list__item-right">
+                                             <span class="denary-color">+12</span>
+                                             <span class="secondary-color">564</span>
+                                          </div>
+                                       </li>
+                                       <li class="channel-list__item">
+                                          <div class="channel-list__item-left">
+                                             <img src="./assets/icons/dot-icon.svg" alt="" />
+                                             <span class="primary-color">President of Sales</span>
+                                          </div>
+                                          <div class="channel-list__item-right">
+                                             <span class="denary-color">+12</span>
+                                             <span class="secondary-color">564</span>
+                                          </div>
+                                       </li>
+                                       <li class="channel-list__item">
+                                          <div class="channel-list__item-left">
+                                             <img src="./assets/icons/dot-icon.svg" alt="" />
+                                             <span class="primary-color">Marketing Coordinator</span>
+                                          </div>
+                                          <div class="channel-list__item-right">
+                                             <span class="denary-color">+12</span>
+                                             <span class="secondary-color">564</span>
+                                          </div>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+
+                              <button class="sidebar-content__more-btn light">Show More Channels</button>
+                           </div>
+
+                           <div class="sidebar-content__project-companies">
+                              <div class="sidebar-content__project-companies-title">
+                                 <span class="secondary-color">Project Companies</span>
+                                 <img src="./assets/icons/add-outline-icon.svg" alt="" />
+                              </div>
+
+                              <div class="sidebar-content__project-companies-content">
+                                 <div class="project-companies-content__channel-list">
+                                    <ul>
+                                       <li class="channel-list__item">
+                                          <div class="channel-list__item-left">
+                                             <img src="./assets/icons/dot-icon.svg" alt="" />
+                                             <span class="primary-color">Walt Disney</span>
+                                          </div>
+                                          <div class="channel-list__item-right">
+                                             <span class="denary-color">+12</span>
+                                             <span class="secondary-color">564</span>
+                                          </div>
+                                       </li>
+                                       <li class="channel-list__item">
+                                          <div class="channel-list__item-left">
+                                             <img src="./assets/icons/dot-icon.svg" alt="" />
+                                             <span class="primary-color">Johnson & Johnson</span>
+                                          </div>
+                                          <div class="channel-list__item-right">
+                                             <span class="denary-color">+5</span>
+                                             <span class="secondary-color">456</span>
+                                          </div>
+                                       </li>
+                                       <li class="channel-list__item">
+                                          <div class="channel-list__item-left">
+                                             <img src="./assets/icons/dot-icon.svg" alt="" />
+                                             <span class="primary-color">General Electric</span>
+                                          </div>
+                                          <div class="channel-list__item-right">
+                                             <span class="denary-color"></span>
+                                             <span class="secondary-color">387</span>
+                                          </div>
+                                       </li>
+                                       <li class="channel-list__item">
+                                          <div class="channel-list__item-left">
+                                             <img src="./assets/icons/dot-icon.svg" alt="" />
+                                             <span class="primary-color">Bank of America</span>
+                                          </div>
+                                          <div class="channel-list__item-right">
+                                             <span class="denary-color"></span>
+                                             <span class="secondary-color">321</span>
+                                          </div>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+
+                              <button class="sidebar-content__more-btn light">Show More Channels</button>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="content__right-content">
+                        <div class="right-content__head">
+                           <div class="head-left">
+                              <div class="head-left-util show-block-480">
+                                 <img src="./assets/icons/group-icon.svg" alt="" />
+                              </div>
+                              <div class="head-left-util">
+                                 <img src="./assets/icons/phone-icon.svg" alt="" />
+                              </div>
+                              <div class="head-left-util">
+                                 <img src="./assets/icons/videocam-icon.svg" alt="" />
+                              </div>
+                           </div>
+
+                           <div class="head-name">
+                              <img class="icon-size-30" src="./assets/icons/dot-icon-2.svg" alt="" />
+                              <span class="secondary-color">Dennis Smith</span>
+                           </div>
+
+                           <div class="head-right">
+                              <div class="head-right-util">
+                                 <img class="icon-size-30" src="./assets/icons/ic_arrows-icon.svg" alt="" />
+                              </div>
+                              <div class="head-right-util">
+                                 <img class="icon-size-30" src="./assets/icons/apps-icon.svg" alt="" />
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="right-content__chat-box-wrapper">
+                           <div class="right-content__chat-box">
+                              <div class="chat-box-content">
+                                 <div class="chat-box-content__item">
+                                    <div class="chat-box-content__item-left">
+                                       <img class="item-left-avatar" src="./assets/images/image-13.png" alt="" />
+
+                                       <div class="item-left__content">
+                                          <div class="item-left__content-head">
+                                             <span class="primary-color">Stella Evans</span>
+                                             <div class="item-left__content-head-info">
+                                                <span class="secondary-color">Web Designer</span>
+                                                <span class="secondary-color">12:45 PM</span>
+                                             </div>
+                                          </div>
+
+                                          <div class="item-left__main-content">
+                                             <div class="main-content__file primary-border light">
+                                                <div class="main-content__file-name">
+                                                   <span class="primary-color">Human Design Guidelines.pdf</span>
+                                                   <span class="senary-color">760.90 KB</span>
+                                                </div>
+
+                                                <div class="main-content__action">
+                                                   <span class="senary-color">Downloading …</span>
+                                                   <span class="senary-color">65%</span>
+                                                </div>
+
+                                                <div class="main-content__progress">
+                                                   <div class="progress-bar octonary-bg-2"></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+
+                                    <div class="chat-box-content__item-right">
+                                       <button class="item-right-button">
+                                          <img class="icon-size-30" src="./assets/icons/actived-heart-icon.svg" alt="" />
+                                       </button>
+                                       <button class="item-right-button hide-480">
+                                          <img class="icon-size-30" src="./assets/icons/flag-icon.svg" alt="" />
+                                       </button>
+                                       <button class="item-right-button">
+                                          <img class="icon-size-30" src="./assets/icons/navigation-more-icon.svg" alt="" />
+                                       </button>
+                                    </div>
+                                 </div>
+                                 <div class="chat-box-content__item">
+                                    <div class="chat-box-content__item-left">
+                                       <img class="item-left-avatar" src="./assets/images/image-16.png" alt="" />
+
+                                       <div class="item-left__content">
+                                          <div class="item-left__content-head">
+                                             <span class="primary-color">Edward Goodwin</span>
+                                             <div class="item-left__content-head-info">
+                                                <span class="secondary-color">Web Designer</span>
+                                                <span class="secondary-color">12:45 PM</span>
+                                             </div>
+                                          </div>
+
+                                          <div class="item-left__main-content">
+                                             <div class="main-content__img-container">
+                                                <div class="img-container__img-item">
+                                                   <img class="img-item__img" src="./assets/images/image-14.png" alt="" />
+                                                   <button>
+                                                      <img class="nonary-bg-2" src="./assets/icons/search-icon-2.svg" alt="" />
+                                                   </button>
+                                                </div>
+                                                <div class="img-container__img-item">
+                                                   <img class="img-item__img" src="./assets/images/image-15.png" alt="" />
+                                                   <button>
+                                                      <img class="nonary-bg-2" src="./assets/icons/search-icon-2.svg" alt="" />
+                                                   </button>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+
+                                    <div class="chat-box-content__item-right">
+                                       <button class="item-right-button">
+                                          <img class="icon-size-30" src="./assets/icons/heart-icon.svg" alt="" />
+                                       </button>
+                                       <button class="item-right-button hide-480">
+                                          <img class="icon-size-30" src="./assets/icons/flag-icon.svg" alt="" />
+                                       </button>
+                                       <button class="item-right-button">
+                                          <img class="icon-size-30" src="./assets/icons/navigation-more-icon.svg" alt="" />
+                                       </button>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="chat-box-line-wrapper">
+                                 <span class="light quaternary-color">Today</span>
+                                 <div class="chat-box-line octonary-bg"></div>
+                              </div>
+
+                              <div class="chat-box-content">
+                                 <div class="chat-box-content__item">
+                                    <div class="chat-box-content__item-left">
+                                       <img class="item-left-avatar" src="./assets/images/image-17.png" alt="" />
+
+                                       <div class="item-left__content">
+                                          <div class="item-left__content-head">
+                                             <span class="primary-color">Kyle Peters</span>
+                                             <div class="item-left__content-head-info">
+                                                <span class="secondary-color">Web Designer</span>
+                                                <span class="secondary-color">12:45 PM</span>
+                                             </div>
+                                          </div>
+
+                                          <div class="item-left__main-content">
+                                             <div class="main-content__message primary-border light">
+                                                <span class="primary-color">
+                                                   When you starting a company you are thinking on how to cut expenses. One of such options to cut the
+                                                   startup costs is a company logo design. But is it good idea to order a cheap logo or work without
+                                                   company logo at all?
+                                                </span>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+
+                                    <div class="chat-box-content__item-right">
+                                       <button class="item-right-button">
+                                          <img class="icon-size-30" src="./assets/icons/heart-icon.svg" alt="" />
+                                       </button>
+                                       <button class="item-right-button hide-480">
+                                          <img class="icon-size-30" src="./assets/icons/flag-icon.svg" alt="" />
+                                       </button>
+                                       <button class="item-right-button">
+                                          <img class="icon-size-30" src="./assets/icons/navigation-more-icon.svg" alt="" />
+                                       </button>
+                                    </div>
+                                 </div>
+                                 <div class="chat-box-content__item">
+                                    <div class="chat-box-content__item-left">
+                                       <img class="item-left-avatar" src="./assets/images/image-18.png" alt="" />
+
+                                       <div class="item-left__content">
+                                          <div class="item-left__content-head">
+                                             <span class="primary-color">Susan Lane</span>
+                                             <div class="item-left__content-head-info">
+                                                <span class="secondary-color">Web Designer</span>
+                                                <span class="secondary-color">12:45 PM</span>
+                                             </div>
+                                          </div>
+
+                                          <div class="item-left__main-content">
+                                             <div class="main-content__message primary-border light">
+                                                <span class="primary-color">
+                                                   When you starting a company you are thinking on how to cut expenses. One of such options to cut the
+                                                   startup costs is a company logo design.
+                                                </span>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+
+                                    <div class="chat-box-content__item-right">
+                                       <button class="item-right-button">
+                                          <img class="icon-size-30" src="./assets/icons/heart-icon.svg" alt="" />
+                                       </button>
+                                       <button class="item-right-button hide-480">
+                                          <img class="icon-size-30" src="./assets/icons/flag-icon.svg" alt="" />
+                                       </button>
+                                       <button class="item-right-button">
+                                          <img class="icon-size-30" src="./assets/icons/navigation-more-icon.svg" alt="" />
+                                       </button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="right-content__input-form">
+                              <div class="input-form__left-utils">
+                                 <button class="icon-size-30"><img src="./assets/icons/attachment-icon.svg" alt="" /></button>
+                                 <button class="icon-size-30"><img src="./assets/icons/image-icon.svg" alt="" /></button>
+                              </div>
+                              <input class="input-form__input" type="text" placeholder="Type Message" />
+                              <button class="icon-size-30 input-form__send-btn"><img src="./assets/icons/send-icon.svg" alt="" /></button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="overlay"></div>
+      </div>
+   </body>
+   <script src="./main.js"></script>
+</html>
