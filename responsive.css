@@ -105,6 +105,53 @@
     display: none !important;
   }
 }
+@media (max-width: 830px) {
+  .content__right-content .right-content__head {
+    padding: 20px 15px;
+  }
+  .content__right-content .right-content__head .head-left,
+  .content__right-content .right-content__head .head-right {
+    display: flex;
+    gap: 5px;
+  }
+  .content__right-content .right-content__chat-box .chat-box-content {
+    gap: 20px;
+    padding: 20px 15px;
+  }
+  .content__right-content .right-content__chat-box .chat-box-content__item-left {
+    gap: 15px;
+  }
+  .content__right-content .right-content__chat-box .chat-box-content__item-left .item-left__content-head {
+    flex-direction: column;
+    gap: 0;
+    padding-left: calc(var(--chat-box-avatar-size) + 15px);
+  }
+  .content__right-content .right-content__chat-box .chat-box-content__item-left .item-left-avatar {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .content__right-content .right-content__chat-box .chat-box-content__item-left .item-left__main-content .main-content__img-container {
+    margin: 0 -5px;
+    margin-bottom: -5px;
+  }
+  .content__right-content .right-content__chat-box .chat-box-content__item-left .item-left__main-content .main-content__img-container .img-container__img-item {
+    padding: 0 5px;
+    margin-bottom: 5px;
+  }
+  .content__right-content .right-content__chat-box .chat-box-content__item-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    gap: 0;
+  }
+  .content__right-content .right-content__input-form {
+    padding: 15px 20px;
+  }
+  .content__right-content .right-content__input-form .input-form__left-utils {
+    gap: 15px;
+  }
+}
 @media (max-width: 768px) {
   .show-block-768 {
     display: block !important;
@@ -133,7 +180,7 @@
     margin-left: 0;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   :root {
     --content-padding: 15px;
   }
@@ -155,6 +202,7 @@
     gap: 5px;
   }
   .content__right-content .right-content__chat-box .chat-box-content {
+    gap: 20px;
     padding: 20px 15px;
   }
   .content__right-content .right-content__chat-box .chat-box-content__item-left {
@@ -165,22 +213,10 @@
     gap: 0;
     padding-left: calc(var(--chat-box-avatar-size) + 15px);
   }
-  .content__right-content .right-content__chat-box .chat-box-content__item-right {
-    position: absolute;
-    top: 0;
-    right: 0;
-    gap: 0;
-  }
-  .content__right-content .right-content__chat-box .chat-box-content {
-    gap: 20px;
-  }
   .content__right-content .right-content__chat-box .chat-box-content__item-left .item-left-avatar {
     position: absolute;
     top: 0;
     left: 0;
-  }
-  .content__right-content .right-content__input-form {
-    padding: 15px 20px;
   }
   .content__right-content .right-content__chat-box .chat-box-content__item-left .item-left__main-content .main-content__img-container {
     margin: 0 -5px;
@@ -189,6 +225,15 @@
   .content__right-content .right-content__chat-box .chat-box-content__item-left .item-left__main-content .main-content__img-container .img-container__img-item {
     padding: 0 5px;
     margin-bottom: 5px;
+  }
+  .content__right-content .right-content__chat-box .chat-box-content__item-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    gap: 0;
+  }
+  .content__right-content .right-content__input-form {
+    padding: 15px 20px;
   }
   .content__right-content .right-content__input-form .input-form__left-utils {
     gap: 15px;
